@@ -10,6 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   @import url(https://fonts.googleapis.com/css?family=Dongle);
 
 html {
   color: #222;
@@ -86,6 +87,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   body {
+    background-color:black;
+    font-family: Dongle;
+
+   }
+
+   .fixedheader {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: black;
+   box-shadow: 0 0 50px #11ff00;
+ }
+
+ .htextstyle {
+  color: #11ff00;
+  font-size: 50px;
+  text-align: center;
+  list-style-type: none;
+  display: block;
+}
+
+.boxtextstyle {
+  text-align: center;
+  color: #11ff00;
+  font-size: 50px;
+  padding: 50px;
+}
+
+.headerblock {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #11ff00;
+  background-color: black;
+  box-shadow: 0 0 50px #11ff00;
+  width: 80%;
+  border-radius: 25px;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +303,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
