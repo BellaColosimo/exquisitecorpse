@@ -4,7 +4,10 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-	kenny T - testers
+    Kenny T -- Developer -- <>
+    Kaj H -- Developer -- <>
+    Bella C -- Developer -- <>
+
 
 # THANKS
 
